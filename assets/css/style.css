@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #202020;
+  padding: 10px;
+  margin: 50px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  gap: 8px;
+}
+
+.container img {
+  width: 200px;
+}
+
+.container .flag-2 {
+  margin-bottom: 60px;
+}
+
+.olympic-logo {
+  position: absolute;
+}
+
+.flag {
+  animation: naik 30s infinite;
+}
+
+@keyframes naik {
+  0% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateY(-350px);
+  }
+}
